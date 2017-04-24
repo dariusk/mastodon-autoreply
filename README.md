@@ -17,6 +17,10 @@ Edit `index.js` so that `awayMessage` says whatever message you want.
 
 Run the bot! Note: _this is not a cron-style bot_. It's going to have to run continuously in the background because it uses the streaming API to watch for new follows. If you're installing this on a Linux server, [this guide](http://stackoverflow.com/questions/4681067/how-do-i-run-a-node-js-application-as-its-own-process/28542093#28542093) will help you run it as a continuous background process, even after a reboot.
 
+## Another important note
+
+If the instance your bot is running on is slow, the streaming API will be really unresponsive. Like it just won't catch most actual events that happen. You have been warned.
+
 ## License
 Copyright (c) 2017 Darius Kazemi  
 Licensed under the MIT license.
