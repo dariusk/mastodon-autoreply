@@ -1,0 +1,36 @@
+{
+  "name": "mastodon-autoreply",
+  "description": "A bot that replies to new followers, ideally saying \"I've moved! Follow me (here).\"",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dariusk/mastodon-autoreply",
+  "author": {
+    "name": "Darius Kazemi",
+    "email": "darius.kazemi@gmail.com",
+    "url": "https://tinysubversions.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dariusk/mastodon-autoreply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dariusk/mastodon-autoreply/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dariusk/mastodon-autoreply/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.1.2"
+  },
+  "dependencies": {
+    "mastodon-api": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-notify": "~0.4.0"
+  },
+  "keywords": []
+}
